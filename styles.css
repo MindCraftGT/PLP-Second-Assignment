@@ -1,0 +1,71 @@
+.navbar-container {
+	background-color: bisque;
+	border-radius: 10px;
+	overflow: hidden;
+	position: sticky;
+	font-size: 1.2em;
+}
+.nav-list {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+a {
+	float: left;
+	text-decoration: none;
+	padding-right: 50px;
+	color: black;
+	font-weight: bold;
+}
+img {
+	overflow: hidden;
+	border-radius: 20px;
+}
+.nature-gallary, .food-menu-pictures {
+	overflow: hidden;
+}
+.nature-gallary img {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	margin-bottom: 10px;
+	margin-right: 0;
+	margin-left: 6px;
+	width: 100vh;
+}
+.food-menu-pictures img {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	margin-bottom: 10px;
+	margin-right: 0;
+	margin-left: 6px;
+	width: 100vh;
+}
+h1 {
+	background-color: rgb(2, 39, 39);
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: aliceblue;
+	border-radius: 12px;
+}
+body {
+	margin-left: 5px;
+}
+p {
+	font-size: 1.7em;
+	display: block;
+}
+.footer-section {
+	background-color: black;
+	color: beige;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 15px;
+	border-radius: 15px;
+}
