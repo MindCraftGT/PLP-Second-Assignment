@@ -4,6 +4,7 @@
 	overflow: hidden;
 	position: sticky;
 	font-size: 1.2em;
+	margin-bottom: 20px;
 }
 .nav-list {
 	list-style-type: none;
